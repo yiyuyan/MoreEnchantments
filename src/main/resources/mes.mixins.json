@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.mes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mes.refmap.json",
+  "mixins": [
+    "BowItemMixin",
+    "EnchantmentHelperMixin",
+    "PlayerMixin",
+    "ProtectionEnchantmentMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
